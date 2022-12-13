@@ -1,0 +1,306 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    color: #747474;
+
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.main-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: box-shadow .25s ease 0s;
+}
+
+.main-header.is-sticky {
+    box-shadow: 0 -2px 10px 0 rgb(0 0 0 / 15%);
+}
+
+.DocPlanner {
+    width: 268px;
+    height: 33px;
+}
+
+.nav-links {
+    display: flex;
+    width: 28%;
+    flex-direction: row;
+    line-height: 1em;
+}
+
+.text {
+    text-decoration: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    padding: 0 0.6em;
+    color: #00b39b;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.first-block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px
+}
+
+.img-first-block {
+    display: flex;
+    margin-top: 36px;
+    width: 39px;
+    margin-left: 674px;
+}
+
+.first-block h1 {
+    color: #00b39b;
+    font-size: 2.125rem;
+    text-align: center;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.paragraph {
+    display: flex;
+    align-content: center;
+    padding-left: 250px;
+}
+
+.p1 {
+    width: 50%;
+}
+
+.p2 {
+    width: 50%;
+    padding-right: 234px;
+}
+
+.paragraph p {
+    font-weight: 400;
+    line-height: 1.75;
+    color: #00b39b;
+}
+
+.service-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header h1 {
+    margin: 1em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-size: 1.625em;
+    font-weight: 400;
+    margin: 0.67em 0;
+    letter-spacing: -.3px;
+    color: white;
+}
+
+.header h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+
+}
+
+.header img {
+    width: 7.5%;
+}
+
+
+.second-block {
+    margin: 3.75rem 2.5rem 2.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.patient-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #00ccb1;
+    border-radius: 10px;
+    padding: 30px;
+    width: 250px;
+    margin: 15px;
+    height: 345px;
+
+}
+
+.doctor-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3d83df;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
+    width: 250px;
+    height: 345px;
+
+
+
+}
+
+.clinics-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1b2734;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
+    width: 250px;
+    height: 345px;
+
+
+}
+
+.dropdownlist-patient {
+    margin-bottom: 35px;
+    font-family: Roboto, Arial, sans-serif;
+
+}
+
+.dropdownlist-patient select {
+    text-decoration: underline;
+    background: transparent;
+    cursor: pointer;
+    color: white;
+
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+
+    border-color: #00ccb1;
+
+
+}
+
+.dropdownlist-patient option {
+    color: black;
+}
+
+.doctor-select select {
+    border-color: #3d83df;
+}
+
+.clinic-select select {
+    border-color: #1b2734;
+}
+
+.third-block {
+    display: flex;
+    margin: 2.5rem auto 3.125rem;
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 214px;
+    position: relative;
+}
+
+.third-block h1 {
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    color: #00b39b;
+}
+
+.brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+}
+
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: auto;
+}
+
+.brands__logos a {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.brands__logos a path {
+    transition: all .2s ease 0s;
+    fill: hsla(0, 0%, 67%, .7);
+}
+
+a {
+    text-decoration: none;
+    color: #3d83df;
+    outline: 0;
+    transition: all .2s ease 0s;
+    background-color: transparent;
+}
+
+.brands__logos a svg {
+    height: 20px;
+    width: auto;
+    max-width: 100%;
+    padding-left: 10px;
+}
+
+.brands__logos a:hover path {
+    fill: #00bfa5
+}
+
+.brands__logos .clinicloud img,
+.brands__logos .gipo img,
+.brands__logos .jameda img,
+.brands__logos .tuotempo img {
+    transition: all .2s ease 0s;
+    filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    -webkit-filter: invert(98%) sepia(2%) saturate(0) hue-rotate(180deg) brightness(300%) contrast(0);
+    opacity: .55;
+}
+
+.brands__logos .clinicloud:hover img,
+.brands__logos .gipo:hover img,
+.brands__logos .jameda:hover img,
+.brands__logos .tuotempo:hover img {
+    filter: none;
+    opacity: 1
+}
